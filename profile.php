@@ -4,7 +4,7 @@ page_header('Student Profile');
 ?>
 <section class="profile-layout">
     <div class="profile-photo-panel">
-        <img class="profile-photo" src="img/myphoto.jpeg" alt="Profile photo of Gibson Chong Chee Yii">
+        <img class="profile-photo" src="img/profile.jpeg" alt="Profile photo of Gibson Chong Chee Yii">
     </div>
     <div class="profile-info-panel">
         <p class="eyebrow">Student Profile</p>

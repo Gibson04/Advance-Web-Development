@@ -11,8 +11,13 @@ page_header('Home');
         <p>CampusSpace helps students find study rooms, event venues, specialist labs and activity spaces, then register for a suitable booking slot from one simple website.</p>
         <div class="actions">
             <a class="button primary" href="main_menu.php">Open Main Menu</a>
-            <a class="button" href="login.php">Log In</a>
-            <a class="button" href="registration.php">Register Account</a>
+            <?php if (!empty($_SESSION['user_email'])): ?>
+                <a class="button" href="update_profile.php">View Account</a>
+                <a class="button" href="logout.php">Logout</a>
+            <?php else: ?>
+                <a class="button" href="login.php">Log In</a>
+                <a class="button" href="registration.php">Register Account</a>
+            <?php endif; ?>
         </div>
     </div>
     <img class="hero-image" src="<?php echo h($photo); ?>" alt="Campus booking space preview">
