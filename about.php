@@ -13,7 +13,7 @@ page_header('About');
         <li><strong>Tasks completed:</strong> Home, main menu, catalogue, activities, community, detail, profile, update profile, registration, registration processing, activity registration, login and about pages.</li>
         <li><strong>Tasks not attempted:</strong> User upload and smart recommendation are reserved for Assignment 2.</li>
         <li><strong>Frameworks/libraries:</strong> No third-party framework. Plain HTML, CSS and PHP.</li>
-        <li><strong>Video presentation:</strong> <a href="https://youtu.be/replace-with-your-unlisted-video" target="_blank">Unlisted YouTube demo link</a></li>
+        <li><strong>Video presentation:</strong> <a href="https://youtu.be/ATvJCJ6hOYE?si=unyOLiEZ5zpBiMSQ" target="_blank">Unlisted YouTube demo link</a></li>
     </ul>
     <a class="button" href="index.php">Back Home</a>
 </section>
