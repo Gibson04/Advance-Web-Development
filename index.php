@@ -1,6 +1,6 @@
 <?php
 require_once 'common.php';
-$photos = ['img/hero-library.svg', 'img/hero-lab.svg', 'img/hero-studio.svg'];
+$photos = ['img/facility-library-discussion.png', 'img/facility-computer-lab.png', 'img/facility-innovation-hub.png'];
 $photo = $photos[array_rand($photos)];
 page_header('Home');
 ?>

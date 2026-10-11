@@ -30,6 +30,8 @@ for (const dir of ["style", "img", "data"]) {
 const index = readFileSync(join(root, "index.php"), "utf8");
 assert.match(index, /\$_SESSION\[['"]user_email['"]\]/, "index.php hero actions should respond to logged-in state");
 assert.match(index, /logout\.php/, "index.php should offer logout when a user is logged in");
+assert.match(index, /facility-.*\.png/, "index.php should use real facility photos for the hero image");
+assert.doesNotMatch(index, /hero-.*\.svg/, "index.php should not use the old SVG hero image set");
 
 const mainMenu = readFileSync(join(root, "main_menu.php"), "utf8");
 for (const target of ["catalog.php", "activities.php", "community.php", "smart_feature.php"]) {
